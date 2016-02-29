@@ -36,5 +36,9 @@
 		"weinre": "^2.0.0-pre-I0Z7U9OV",
 		"ws": "^0.8.0"
 	},
-	"license": "GPL-3.0"
+	"license": "GPL-3.0",
+	"config": {
+		"backgroundColor": "#182736",
+		"icons": "icons"
+	}
 }
