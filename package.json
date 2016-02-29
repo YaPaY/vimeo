@@ -1,6 +1,6 @@
 {
-	"name": "vimeo",
-	"version": "1.0.5",
+	"name": "VimeoApp",
+	"version": "1.0.7",
 	"description": "Discover top-notch videos, creators, and collections related to your interests, hand-selected by our 100-percent-human curation team",
 	"author":{
 		"name": "wilharriss"
@@ -36,8 +36,5 @@
 		"weinre": "^2.0.0-pre-I0Z7U9OV",
 		"ws": "^0.8.0"
 	},
-	"config":{
-		"backgroundColor":"#182736",
-		"icons":"icons"
-	}
+	"license": "GPL-3.0"
 }

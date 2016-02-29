@@ -1,0 +1,14 @@
+{
+	"meta": {
+		"charset": "utf-8",
+		"project": "VimeoApp 1.0.6",
+		"language": "ru",
+		"plural": "(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)"
+	},
+	"data": {
+		"": {
+			"Discover top-notch videos, creators, and collections related to your interests, hand-selected by our 100-percent-human curation team": "Ознакомьтесь первоклассных видео, создатели и коллекций, связанных с вашими интересами, отобранных вручную нашей 100-процентный человеческого команды Curation",
+			"VimeoApp": ""
+		}
+	}
+}
