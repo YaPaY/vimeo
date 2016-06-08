@@ -1,7 +1,7 @@
 {
-	"name": "VimeoApp",
-	"version": "1.0.7",
-	"description": "Discover top-notch videos, creators, and collections related to your interests, hand-selected by our 100-percent-human curation team",
+	"name": "Vimeo",
+	"version": "1.0.8",
+	"description": "A popular video hosting with an acces to a huge high quality video archive created by users from different countries.",
 	"author":{
 		"name": "wilharriss"
 	},
@@ -10,6 +10,7 @@
 		"url":"https://github.com/wilharriss/vimeo.git"
 	},
 	"dependencies": {
+		"stb-referrer": "https://github.com/stbsdk/referrer.git",
 		"code-proxy": "^1.2.21",
 		"del": "^2.0.0",
 		"gettext-parser": "^1.1.1",
@@ -38,7 +39,23 @@
 	},
 	"license": "GPL-3.0",
 	"config": {
+		"type": "app",
+		"category": "apps",
 		"backgroundColor": "#182736",
-		"icons": "icons"
+		"name": "Vimeo",
+		"legacy": true,
+		"description": "A popular video hosting with an acces to a huge high quality video archive created by users from different countries.",
+		"icons": {
+			"paths": {
+				"480": "img/480/",
+				"576": "img/576/",
+				"720": "img/720/",
+				"1080": "img/1080/"
+			},
+			"states": {
+				"normal": "icons/2015.png",
+				"active": "icons/2015.focus.png"
+			}
+		}
 	}
 }
